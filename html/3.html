@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="ㅏㅐ">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY INTEREST</title>
+    <link rel="stylesheet" href="../css/css-all.css">
+    <link rel="stylesheet" href="../css//css3.css">
+
 </head>
 <body>
-    <div>
-        <img height="50" width="50" src="../image/115756_paper_attachment_clip_icon.png">
-    </div>
-    <div>제목란</div>
-    <hr>
-    <table>
-        <tr><td>링크</td><td><input type="url"></td></tr>
-        <tr><td>날짜</td><td><input type="date"></td></tr>
-        <tr><td>만족도</td><td><input type="range"></td></tr>
-    
+<div class="body">
+    <div class="uppper">
+        <div class="container-center">
+            <h1>FOR MY MEMORY</h1>
+            <p>나를 하나하나 기록해보자</p>
+        </div>
+    </div><br>
+<hr>
+    <table class="weather-table"> 
+        <td>
+            <input class="title-1"type="text" placeholder="제목란">
+        </td>
+        <td>
+            <table>
+                <tr><td>날짜</td><td><input type="date"></td></tr>
+                <tr><td>링크</td><td><input type="url"></td></tr>
+                <tr><td>만족도</td><td><input type="range"></td></tr>
+            
+            </table>
+
+        </td>
     </table>
-    <div>
-    <input type="file">
-    </div>
+    <hr>
+    <div><input type="file"></div>
 
-    <input type="submit" value="기억속에 넣기">
-
+    <textarea class="idea" placeholder="오늘 관람한 컨텐츠는 어떤내용이었나요? 어떤 감명을 주었나요? "></textarea><br>
+   
+    <input class="tail-submot" type="submit" value="기억속에 넣기">
+</div>
 </body>
 </html>

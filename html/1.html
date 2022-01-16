@@ -5,32 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY DAY</title>
+    <link rel="stylesheet" href="../css/css-all.css">
+    <link rel="stylesheet" href="../css/css1.css">
+
 </head>
 <body>
-    <div>
-        <img height="50" width="50" src="../image/115756_paper_attachment_clip_icon.png">
+    <div class="body">
+    <div class="uppper">
+        <div class="container-center">
+            <h1>FOR MY MEMORY</h1>
+            <p>나를 하나하나 기록해보자</p>
+        </div>
     </div>
-    <div>제목란</div>
-    <hr>
-    <table>
-             
-            <tr><td>날짜</td><td><input type="date"></td></tr>
-            <tr><td>오늘의 기분</td><td><input type="range"></td></tr>
-            <!-- 정도를 별점으로 가능하지 찾아보기 또는 기분선택 -->
-            <tr><td>오늘 날씨</td>
-                <td>
-                <select size=1 multiple>
-                <option>맑음</option>
-                <option>눈</option>
-                <option>비</option>
-                <option>구름</option>
-                <option>우박</option>
-                </select>
-            </td></tr>
-        
-    </table>
 
-    <textarea></textarea><br>
-    <input type="submit" value="기억속에 넣기">
+
+    <div>
+    </div>
+    <hr>
+    
+    <table class="weather-table">
+        <tr>
+            <td>
+                
+                    <input class="title-1"type="text" placeholder="제목란">
+                
+            </td>
+            <td>
+                    <table class="weather-t-table">
+                        <tr><td>날짜</td><td><input type="date"></td></tr>
+                        <tr><td>오늘의 기분</td><td><input class="smile" type="range"></td></tr>
+                        <!-- 정도를 별점으로 가능하지 찾아보기 또는 기분선택 -->
+                        <tr><td>오늘 날씨</td>
+                            <td>
+                                <select size=1 multiple>
+                                    <option>맑음</option>
+                                    <option>눈</option>
+                                    <option>비</option>
+                                    <option>구름</option>
+                                    <option>우박</option>
+                                </select>
+                        </td></tr>
+                    </table> 
+            </td>         
+        </tr>
+    </table>
+    <hr>
+    <textarea placeholder="오늘의 이야기를 적어주세요 :)"></textarea><br>
+    <input class="tail-submot" type="submit" value="기억속에 넣기">
+    </div>
 </body>
 </html>

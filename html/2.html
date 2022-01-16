@@ -5,23 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY THOUGHT</title>
+    <link rel="stylesheet" href="../css/css-all.css">
+    <link rel="stylesheet" href="../css/css2.css">
+
 </head>
 <body>
-    <div>
-        <img height="50" width="50" src="../image/115756_paper_attachment_clip_icon.png">
-    </div>
-    <div>제목란</div>
-    <hr>
-    <table>
-        <tr><td>날짜</td><td><input type="date"></td></tr>
-        <tr><td>장소</td><td><input type="text"></td></tr>
-        <!-- 나중에 실제로 장소선택할 수 있는거 하기 -->
-        <tr><td>모티브</td><td><input type="text"></td></tr>
-
+     <div class="uppper">
+        <div class="container-center">
+            <h1>FOR MY MEMORY</h1>
+            <p>나를 하나하나 기록해보자</p>
+        </div>
+    </div><br>
+<hr>
+    <table class="weather-table"> 
+        <td>
+            <input class="title-1"type="text" placeholder="제목란">
+        </td>
+        <td>
+            <table class="weather-t-table">
+                <tr><td>날짜</td><td><input class="date" type="date"></td></tr>
+                <tr><td>장소</td><td><input type="text"></td></tr>
+                <!-- 나중에 실제로 장소선택할 수 있는거 하기 -->
+            </table>
+        </td>
     </table>
-    <textarea></textarea><br>
-    <h4>한줄결론</h4>한줄에 나타낼 수 있는거 찾기<textarea rows="1"></textarea>
-    <input type="submit" value="기억속에 넣기">
+    <hr>
+        <span>모티브</td><input type="text"></span><br><br>
+
+    <textarea class="idea" placeholder="어떤 번뜩이는 아이디어를 생각해 내었나요? "></textarea><br>
+    한줄결론 <textarea rows="1" placeholder="아이디어를 한줄로 요약해보세요."></textarea><br>
+    <div></div><br>
+    <input class="tail-submot" type="submit" value="기억속에 넣기">
 
 </body>
 </html>

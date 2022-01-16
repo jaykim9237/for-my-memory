@@ -5,19 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY TIME</title>
+    <link rel="stylesheet" href="../css/css-all.css">
+    <link rel="stylesheet" href="../css/css4.css">
+
 </head>
 <body>
-    <div>
-        <img height="50" width="50" src="../image/115756_paper_attachment_clip_icon.png">
-    </div>
-    <table border="1">
+<div class="body">
+    <div class="uppper">
+        <div class="container-center">
+            <h1>FOR MY MEMORY</h1>
+            <p>나를 하나하나 기록해보자</p>
+        </div>
+    </div><br>
+    <hr>
+    <table class="weather-table"> 
+        <td>
+            <input class="title-1"type="text" placeholder="제목란">
+        </td>
+        <td>
+            <table class="weather-t-table">
+                <tr><td>날짜</td><td><input class="date" type="date"></td></tr>
+                <tr><td>장소</td><td><input type="text"></td></tr>
+                <!-- 나중에 실제로 장소선택할 수 있는거 하기 -->
+            </table>
+        </td>
+    </table>
+    
+    <hr>
+   
+    <table class="pic-table">
         <tr>
             <!-- 이 공간을 그냥 크게 하나의 선택으로 만들려면 셀렉을 써야하나 -->
-            <td>1 <div><input type="file"></div></td>
-            <td>2<div><input type="file"></div></td>
+            <td class="pic file1">1 <div><input type="file"></div></td>
+            <td class="pic file2">2<div><input type="file"></div></td>
         </tr>
         <tr>
-            <td>3
+            <td class="info-pic">3
                 <input type="radio" name="filter" value="필터">
                 <input type="radio" name="filter" value="날짜">
                 <input type="radio" name="filter" value="위치">
@@ -29,11 +52,11 @@
             </td>
         </tr>
         <tr>
-            <td>5<div><input type="file"></div></td>
-            <td>6<div><input type="file"></div></td>
+            <td class="pic file3">5<div><input type="file"></div></td>
+            <td class="pic file4">6<div><input type="file"></div></td>
         </tr>
         <tr>
-            <td>7
+            <td class="info-pic">7
                 <input type="radio" name="filter" value="필터">
                 <input type="radio" name="filter" value="날짜">
                 <input type="radio" name="filter" value="위치">
@@ -45,8 +68,9 @@
             </td>
         </tr>
     </table>
-    
-    <input type="submit" value="기억속에 넣기">
+    <hr><br>
 
+    <input class="tail-submot" type="submit" value="기억속에 넣기">
+</div>
 </body>
 </html>

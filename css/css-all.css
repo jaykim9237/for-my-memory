@@ -1,0 +1,36 @@
+.body{
+    background-color: rgba(4, 58, 18, 0.13);
+    color: rgb(37, 37, 43);
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.head-clip{
+    transform: rotate(135deg)
+}
+
+input, select, textarea{
+    background-color: #E8ECDF;
+    border-color: #E8ECDF;
+    border:rgb(37, 37, 43), 0.5pt, dashed;
+}
+
+.tail-submot{
+    position: relative;
+    right: 10px;
+    display: inline;
+}
+
+.weather-table{
+    width: 100%;
+    padding: 5px;
+}
+
+.weather-t-table{
+    font-weight: bold;
+    width: 100%;
+}
+
+hr{
+    color: seagreen
+}
